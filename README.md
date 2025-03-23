@@ -155,7 +155,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📧 Contact
 
-For any questions or feedback, feel free to reach out at [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, feel free to reach out at [arjunsridhar445@gmail.com](mailto:your-email@example.com).
 
 ---
 
@@ -165,13 +165,3 @@ If you enjoy this project, consider buying me a coffee!
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/yourusername)
 ```
-
----
-
-### Instructions
-
-1. **Place the README file** in your project's root directory.
-2. **Ensure the images** referenced in the README (inside the `images/` folder) are available and correctly named.
-3. **Customize the contact email and GitHub URL** as needed.
-
-This README includes a project overview, a tech stack section with emojis, detailed explanations of the model architecture (with images), setup instructions, training details, licensing, contact info, and a support badge—all styled similarly to your provided example.
