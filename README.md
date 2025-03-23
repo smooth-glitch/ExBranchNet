@@ -1,7 +1,6 @@
 # ExBranchNet
 ---
 
-```markdown
 # 🎯 CIFAR-10 Classification Coursework Project
 
 Welcome to the CIFAR-10 Classification Coursework repository! This project implements a convolutional neural network (CNN) model for classifying CIFAR-10 images. The model is built strictly according to the coursework guidelines and is composed of three main parts:
