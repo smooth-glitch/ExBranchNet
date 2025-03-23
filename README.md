@@ -39,7 +39,7 @@ The model follows the coursework guidelines and is divided into three main compo
 ### 🔥 Stem
 The Stem processes raw input images through a convolution layer, Batch Normalization, and a ReLU activation function to extract low-level features.
 
-![Stem Architecture](images/the_stem.png)
+![Stem Architecture](images/Stem.jpg)
 
 ---
 
@@ -55,7 +55,7 @@ The Backbone comprises several blocks (B1, B2, …, BN). Each block includes:
   - Multiple convolution layers process the input features.
   - Their outputs are combined using the weights from the expert branch.
 
-![Backbone Architecture](images/the_backbone.png)
+![Backbone Architecture](images/Backbone.jpg)
 
 ---
 
@@ -63,23 +63,23 @@ The Backbone comprises several blocks (B1, B2, …, BN). Each block includes:
 
 Each block in the backbone contains the expert branch and the convolution branches.
 
-![Block Architecture](images/the_block.png)
+![Block Architecture](images/Block.jpg)
 
-![Expert Branch Architecture](images/expert_branch.png)
+![Expert Branch Architecture](images/Expert_branch.jpg)
 
 ---
 
 ### 🔥 Classifier
 The Classifier normalizes the refined feature maps using BatchNorm, applies global average pooling, and then maps the flattened features to 10 class logits using a fully connected layer.
 
-![Classifier Architecture](images/the_classifier.png)
+![Classifier Architecture](images/Classifier.jpg)
 
 ---
 
 ### 🔥 Complete Model
 The full model is an assembly of the Stem, Backbone, and Classifier.
 
-![Complete Model Architecture](images/the_model.png)
+![Complete Model Architecture](images/Model.jpg)
 
 ---
 
