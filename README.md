@@ -90,8 +90,8 @@ Follow these steps to set up and run the project on your local system:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/cifar10-classification.git
-   cd cifar10-classification
+   git clone https://github.com/smooth-glitch/ExBranchNet.git
+   cd CIFAR-10
    ```
 
 2. **Create a Virtual Environment**
@@ -112,19 +112,15 @@ Follow these steps to set up and run the project on your local system:
      ```
 
 4. **Install Dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *Note:* If you don’t have a `requirements.txt`, install the following packages:
+   
    ```bash
    pip install torch torchvision matplotlib tqdm
    ```
 
-5. **Run the Training Script**
+6. **Run the Training Script**
 
    ```bash
-   python train.py
+   python pytorch_cifar10_classifier.py
    ```
    This command will:
    - Download the CIFAR-10 dataset.
