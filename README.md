@@ -1,5 +1,4 @@
 # ExBranchNet
----
 
 # 🎯 CIFAR-10 Classification Coursework Project
 
