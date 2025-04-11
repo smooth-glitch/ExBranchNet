@@ -138,7 +138,7 @@ Follow these steps to set up and run the project on your local system:
 - **Optimizer:** ADAM with Learning rate Scheduler and Weight Decay
 - **Epochs:** 15 (for faster execution; adjust as needed)
 - **Batch Size:** 128
-- **Learning Rate Scheduler:** MultiStepLR (milestones at epochs 10 and 15)
+- **Learning Rate Scheduler:** StepLR (milestones at epochs 10 and 15)
 
 ---
 
