@@ -91,7 +91,7 @@ Follow these steps to set up and run the project on your local system:
 
    ```bash
    git clone https://github.com/smooth-glitch/ExBranchNet.git
-   cd CIFAR-10
+   cd CIFAR_10_CLASSIFICATION
    ```
 
 2. **Create a Virtual Environment**
@@ -139,6 +139,12 @@ Follow these steps to set up and run the project on your local system:
 - **Epochs:** 15 (for faster execution; adjust as needed)
 - **Batch Size:** 128
 - **Learning Rate Scheduler:** MultiStepLR (milestones at epochs 10 and 15)
+
+---
+
+## 🗃️ Project Report
+
+![Complete Project Report](CIFAR_10_CLASSIFICATION/ECS659U_210136027)
 
 ---
 
