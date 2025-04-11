@@ -144,7 +144,7 @@ Follow these steps to set up and run the project on your local system:
 
 ## 🗃️ Project Report
 
-![Complete Project Report](CIFAR_10_CLASSIFICATION/ECS659U_210136027.pdf)
+[Project Report](CIFAR_10_CLASSIFICATION/ECS659U_210136027.pdf)
 
 ---
 
