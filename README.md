@@ -120,11 +120,11 @@ Follow these steps to set up and run the project on your local system:
 6. **Run the Training Script**
 
    ```bash
-   python pytorch_cifar10_classifier.py
+   python CustomCNN_CIFAR10.ipynb
    ```
    This command will:
    - Download the CIFAR-10 dataset.
-   - Train the model for 20 epochs.
+   - Train the model for 15 epochs.
    - Plot training loss and accuracy curves.
    - Save the trained model weights as `cifar10_model.pth`.
 
@@ -135,8 +135,8 @@ Follow these steps to set up and run the project on your local system:
 - **Dataset:** CIFAR-10 (10 classes)
 - **Model Architecture:** Stem + Backbone (Blocks with Expert Branch) + Classifier
 - **Loss Function:** CrossEntropyLoss
-- **Optimizer:** SGD with Momentum and Weight Decay
-- **Epochs:** 20 (for faster execution; adjust as needed)
+- **Optimizer:** ADAM with Learning rate Scheduler and Weight Decay
+- **Epochs:** 15 (for faster execution; adjust as needed)
 - **Batch Size:** 128
 - **Learning Rate Scheduler:** MultiStepLR (milestones at epochs 10 and 15)
 
